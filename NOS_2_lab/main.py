@@ -66,7 +66,7 @@ class Process(multiprocessing.Process):
             # CRITICAL SECTION
             self.lock.acquire()
 
-            print "Process", self.id, ": is entering CRITICAL SECTION."
+            print "Process", self.id, ": entering CRITICAL SECTION."
             time.sleep(1)
             print "Process", self.id, ": doing something in the CRITICAL SECTION."
             time.sleep(1)
