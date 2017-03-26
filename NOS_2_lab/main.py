@@ -1,6 +1,7 @@
 import multiprocessing
 from multiprocessing import Pipe, Lock
 from helper import Message
+from helper import get_correct_process
 import time
 
 """
@@ -46,7 +47,7 @@ class Process(multiprocessing.Process):
                 self.clock = max(self.clock, message.get_clock()) + 1
                 if self.clock > message.get_clock():
                     response = Message("RESPONSE", self.id, message.get_clock())
-                    self.inputs[message.get_id() - 2].send(response)
+                    self.inputs[get_correct_process(self.id, message.get_id())].send(response)
 
 
             # wait for all RESPONSES and update local logical clock
@@ -73,7 +74,7 @@ class Process(multiprocessing.Process):
 
             for message in self.queue:
                 response = Message("RESPONSE", self.id, message.get_id())
-                self.inputs[response.get_id() - 2].send(response)
+                self.inputs[get_correct_process(self.id, response.get_id())].send(response)
 
             self.queue = []
 
@@ -92,11 +93,13 @@ if __name__ == '__main__':
     out1, in1 = Pipe()
     # 2. -> 1.
     out2, in2 = Pipe()
+
     # 2. i 3. proces
     # 2. -> 3.
     out3, in3 = Pipe()
     # 3. -> 2.
     out4, in4 = Pipe()
+
     # 1. i 3. proces
     # 1. -> 3.
     out5, in5 = Pipe()

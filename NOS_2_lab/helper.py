@@ -21,3 +21,20 @@ class Message(object):
 
     def get_clock(self):
         return self.clock
+
+def get_correct_process(id, other):
+    if id == 1:
+        if other == 2:
+            return 0
+        else:
+            return 1
+    elif id == 2:
+        if other == 1:
+            return 0
+        else:
+            return 1
+    else:
+        if other == 1:
+            return 0
+        else:
+            return 1
