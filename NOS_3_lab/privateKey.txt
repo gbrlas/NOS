@@ -1,0 +1,15 @@
+---BEGIN OS2 CRYPTO DATA---
+
+Description:
+	Private key
+
+Method:
+	RSA
+
+Key length:
+	0400
+
+Private key: 
+-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQDgKMHD2RRCpZgVs76TO1uxSGEnGdfvjjnY/BA429mwZawp0Eek\nie6bHTnK5sHbmkf+DHdKVwnJGp54Dyhn7DW/+RomyA/MuIpT72WPgLO64hyqgT5d\ncnmmav3n4LctRcXtzkLOAnB07Qbyi78zQjKGwA+vlFtTLYQ4evvzAmUhzwIDAQAB\nAoGBAIL2LOaQYC7j8mvTfOcmCdcUs3YVujwCOzfTZGLjx1YwwJoZTpIJ5/aF56rs\nkJwNkjwR6mvrWBM/UxBPwsqcjXWIN9bSEdKa/rto/Ssp33wTcj9pum29yhnD3wSC\nGiyxvaYYkDLtEJmwcdLyRm/7rtmWCD928RBbTtzjxpIdAmI5AkEA6FrxVmlcbtoX\nVQ07HuUVnhIVjrIPA7c2Xqc4okqUjuCGD4p7AomnXHvo+um2XkKHwfAHZWfSt1qp\nllY1aPTG7QJBAPb4TNorAQVQsPDpUjBTlxeJheW+1gKAP9Q5ekNjKENmZHzNA5u9\n63bOJ8rfWsp/lt9bF5WLUZOvq9Nr1X93mCsCQFGMQXFbbxZ0soWmLB6utgSRQkGf\nmodqUMmtlMHYvQTcJhDkQEHmv/dEgcM2LUwtu2nEbUQYySqSxjw+K2aXqg0CQBDn\nsisE4o8AlPwInI2eSytbSIUPaQrGyJe4T3wpX2otqhc42VRhzapWNjcWztopnaQw\nUg70eGMJlVNlgDm3b/0CQGe0FGOABNPBcdasirpsRqgHylu5Dx8fkGynCAEkOc+9\n5kZidrBRq7afPLjBDCl09fdxm3ObeIKOVBFLede+m6k=\n-----END RSA PRIVATE KEY-----
+
+---END OS2 CRYPTO DATA---

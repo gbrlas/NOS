@@ -1,0 +1,15 @@
+---BEGIN OS2 CRYPTO DATA---
+
+Description:
+	Public key
+
+Method:
+	RSA
+
+Key length:
+	0400
+
+Public key: 
+-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgKMHD2RRCpZgVs76TO1uxSGEn\nGdfvjjnY/BA429mwZawp0Eekie6bHTnK5sHbmkf+DHdKVwnJGp54Dyhn7DW/+Rom\nyA/MuIpT72WPgLO64hyqgT5dcnmmav3n4LctRcXtzkLOAnB07Qbyi78zQjKGwA+v\nlFtTLYQ4evvzAmUhzwIDAQAB\n-----END PUBLIC KEY-----
+
+---END OS2 CRYPTO DATA---

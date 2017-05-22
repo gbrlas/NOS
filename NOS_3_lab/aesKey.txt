@@ -1,0 +1,12 @@
+---BEGIN OS2 CRYPTO DATA---
+
+Description:
+	Secret key
+
+Method:
+	AES
+
+Secret key: 
+\xc9]J\xd5\xa0\xe3o\xb3\x8aI\xf3<\xbeD\xfe4
+
+---END OS2 CRYPTO DATA---
